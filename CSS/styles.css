@@ -1,49 +1,50 @@
 /* Body Definitions */
 body {
-  background-color: grey;
+  background-color: black;
 }
 
 /* Explicit Text-Header Definitions*/
 h1 {
-  color: black;
+  color: white;
   font-family:monospace;
-  font-size: 40px;
-  border: 2px solid black;
+  font-size: 6em;
+  border: 2px solid white;
 }
 h2 {
-  color: #4F5254;
+  color: #5C4742;
   font-family:monospace;
-  font-size: 35px;
-  border: 2px solid #4F5254;
+  font-size: 5.2em;
+  border: 2px solid #5C4742;
 }
 h3 {
   color: #E0E0E0;
   font-family:monospace;
-  font-size: 30px;
+  font-size: 4.4em;
   border: 2px solid #E0E0E0;
 }
 h4 {
   color:  #648DE5;
   font-family:monospace;
-  font-size: 27px;
+  font-size: 3.6em;
   border: 2px solid #648DE5;
 }
 h5 {
   color: #3BB273;
   font-family:monospace;
-  font-size: 24px;
+  font-size: 2.8em;
   border: 2px solid #3BB273;
 }
 h6 {
   color:  #F34213;
   font-family:monospace;
-  font-size: 22px;
+  font-size: 2em;
   border: 2px solid #F34213;
 }
 
 /* Paragraph Text */
 p {
-  color: black;
+  color: white;
+  font-size: 2em;
   font-family:monospace;
 }
 
