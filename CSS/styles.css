@@ -1,0 +1,38 @@
+body {
+  background-color: grey;
+}
+h1 {
+  color: black;
+  font-family:monospace;
+  border: 2px solid black;
+}
+h2 {
+  color: #4F5254;
+  font-family:monospace;
+  border: 2px solid #4F5254;
+}
+h3 {
+  color: #E0E0E0;
+  font-family:monospace;
+  border: 2px solid #E0E0E0;
+}
+h4 {
+  color:  #648DE5;
+  font-family:monospace;
+  border: 2px solid #648DE5;
+}
+h5 {
+  color: #3BB273;
+  font-family:monospace;
+  border: 2px solid #3BB273;
+}
+h6 {
+  color:  #F34213;
+  font-family:monospace;
+  border: 2px solid #F34213;
+}
+
+p {
+  color: white;
+  font-family:monospace;
+}
