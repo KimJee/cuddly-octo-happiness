@@ -1,6 +1,9 @@
+/* Body Definitions */
 body {
   background-color: grey;
 }
+
+/* Explicit Text-Header Definitions*/
 h1 {
   color: black;
   font-family:monospace;
@@ -38,7 +41,14 @@ h6 {
   border: 2px solid #F34213;
 }
 
+/* Paragraph Text */
 p {
   color: black;
   font-family:monospace;
+}
+
+/* Images */
+img {
+  width: 100%;
+  height: auto;
 }
