@@ -1,42 +1,45 @@
 /* Body Definitions */
 body {
-  background-color: grey;
+  background-color: black;
+}
+
+/* Class Attributes */
+.center{
+  text-align: center;
 }
 
 /* Explicit Text-Header Definitions*/
+h1, h2, h3, h4, h5, h6, p {
+  font-family: monospace;
+}
+
 h1 {
-  color: white;
-  font-family:monospace;
+  color: #E0E0E0;
   font-size: 6em;
-  border: 2px solid white;
+  border: 2px solid #E0E0E0;
 }
 h2 {
   color: #5C4742;
-  font-family:monospace;
   font-size: 5.2em;
   border: 2px solid #5C4742;
 }
 h3 {
-  color: #E0E0E0;
-  font-family:monospace;
+  color: #E18335;
   font-size: 4.4em;
-  border: 2px solid #E0E0E0;
+  border: 2px solid #E18335;
 }
 h4 {
-  color:  #648DE5;
-  font-family:monospace;
+  color:  #648DE5;;
   font-size: 3.6em;
   border: 2px solid #648DE5;
 }
 h5 {
   color: #3BB273;
-  font-family:monospace;
   font-size: 2.8em;
   border: 2px solid #3BB273;
 }
 h6 {
-  color:  #F34213;
-  font-family:monospace;
+  color:  #F34213;;
   font-size: 2em;
   border: 2px solid #F34213;
 }
@@ -45,7 +48,6 @@ h6 {
 p {
   color: white;
   font-size: 2em;
-  font-family:monospace;
 }
 
 /* Images */
