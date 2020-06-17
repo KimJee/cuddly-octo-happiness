@@ -8,8 +8,47 @@ body {
 }
 
 /* Class Attributes */
-.center{
-  text-align: center;
+.centerImage{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: auto;
+}
+
+.container {
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+}
+
+.grey-container{
+  background-color: lightgrey;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo{
+  width: 4em;
+  margin: 1em;
+}
+
+.menu{
+  width: 75px;
+}
+
+.hide-mobile{
+  display: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Explicit Text-Header Definitions*/
@@ -25,8 +64,8 @@ h1, h2, h3, h4, h5, h6 {
   border-width: thin;
 
   outline-style: dotted;
-
-  background-color: white;
+  text-align: center;
+  
 }
 
 h1 {
@@ -67,10 +106,21 @@ img {
   width: 100%;
   max-width: 100%;
   height: auto;
+  
+  padding: 0;
+  margin: 0;
 }
 
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.headshot{
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
 }
