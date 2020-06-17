@@ -1,9 +1,10 @@
 /* Body Definitions */
 body {
-  background-color: black;
+  background-color: white;
   /*background-image: url("img_tree.png");*/
   background-repeat: no-repeat;
   background-position: right top;
+  margin: 0;
 }
 
 /* Class Attributes */
@@ -14,23 +15,23 @@ body {
 /* Explicit Text-Header Definitions*/
 h1, h2, h3, h4, h5, h6, p {
   font-family: Courier, monospace;
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: auto;
-
-  text-align: center;
-
+ 
   border-style: dashed;
   border-width: thin;
 
   outline-style: dotted;
 
-  background-color: black;
+  background-color: white;
 }
 
 h1 {
-  color: #E0E0E0;
+  /*color: #E0E0E0;*/
+  color: #A142F5;
   font-size: 6em;
 }
 h2 {
@@ -55,9 +56,10 @@ h6 {
 }
 
 /* Paragraph Text */
-p {
-  color: white;
-  font-size: 2em;
+p, blockquote {
+  color: black;
+  font-size: .9em;
+  line-height: 1.6em;
 }
 
 /* Images */
@@ -65,4 +67,10 @@ img {
   width: 100%;
   max-width: 100%;
   height: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
