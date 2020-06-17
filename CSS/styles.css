@@ -1,6 +1,9 @@
 /* Body Definitions */
 body {
   background-color: black;
+  /*background-image: url("img_tree.png");*/
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 
 /* Class Attributes */
@@ -10,38 +13,45 @@ body {
 
 /* Explicit Text-Header Definitions*/
 h1, h2, h3, h4, h5, h6, p {
-  font-family: monospace;
+  font-family: Courier, monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: auto;
+
+  text-align: center;
+
+  border-style: dashed;
+  border-width: thin;
+
+  outline-style: dotted;
+
+  background-color: black;
 }
 
 h1 {
   color: #E0E0E0;
   font-size: 6em;
-  border: 2px solid #E0E0E0;
 }
 h2 {
   color: #5C4742;
   font-size: 5.2em;
-  border: 2px solid #5C4742;
 }
 h3 {
   color: #E18335;
-  font-size: 4.4em;
-  border: 2px solid #E18335;
+  font-size: 4.4em
 }
 h4 {
   color:  #648DE5;;
   font-size: 3.6em;
-  border: 2px solid #648DE5;
 }
 h5 {
   color: #3BB273;
   font-size: 2.8em;
-  border: 2px solid #3BB273;
 }
 h6 {
   color:  #F34213;;
   font-size: 2em;
-  border: 2px solid #F34213;
 }
 
 /* Paragraph Text */
