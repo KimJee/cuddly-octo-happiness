@@ -15,12 +15,6 @@ body {
   margin-top: auto;
 }
 
-.container {
-  padding-left: 0.8em;
-  padding-right: 0.8em;
-  padding-top: 1.2em;
-  padding-bottom: 1.2em;
-}
 
 .grey-container{
   background-color: lightgrey;
@@ -32,16 +26,15 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   
-  margin-top: 2%;
   margin-left: 35%;
   margin-right: 35%;
-  margin-bottom: 2%;
 }
 
 .flex-item {
+  margin-top: 2%;
   margin-left: 4px;
   margin-right: 4px;
-
+  margin-bottom: 2%;
 }
 
 .logo{
@@ -69,43 +62,47 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1, h2, h3, h4, h5, h6 {
- 
-  outline-style: dotted;
-  text-align: center;
-  
+  text-align: center; 
+  border-style: solid;
 }
 
 h1 {
   /*color: #E0E0E0;*/
   color: #A142F5;
-  font-size: 6em;
+  /*font-size: 6em;*/
+  font-size: 300%;
 }
 h2 {
   color: #5C4742;
-  font-size: 5.2em;
+  /*font-size: 5.2vp;*/
+  font-size: 275%;
 }
 h3 {
   color: #E18335;
-  font-size: 4.4em
+  /*font-size: 4.4vp;*/
+  font-size: 250%;
 }
 h4 {
-  color:  #648DE5;;
-  font-size: 3.6em;
+  color:  #648DE5;
+  /*font-size: 3.6vp;*/
+  font-size: 225%;
 }
 h5 {
   color: #3BB273;
-  font-size: 2.8em;
+  /*font-size: 2.8vp;*/
+  font-size: 200%;
 }
 h6 {
   color:  #F34213;;
-  font-size: 2em;
+  /*font-size: 2vp;*/
+  font-size: 150%;
 }
 
 /* Paragraph Text */
 p, blockquote {
   color: black;
-  font-size: .9em;
-  line-height: 1.6em;
+  font-size: .9vp;
+  line-height: 1.6vp;
 }
 
 /* Images */
@@ -126,7 +123,7 @@ ul {
 
 .headshot{
   width: 25%;
-  margin-top: 2em;
+  margin-top: 2vp;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -150,7 +147,7 @@ ul {
 
 .footer-container p{
   background-color: #4a4a4a;
-  padding: 1em;
+  padding: 1vp;
   text-align: center;
   color: white;
 }
