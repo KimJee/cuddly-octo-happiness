@@ -30,12 +30,22 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
+  
+  margin-top: 2%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 2%;
+}
+
+.flex-item {
+  margin-left: 4px;
+  margin-right: 4px;
+
 }
 
 .logo{
-  width: 4em;
-  margin: 1em;
+  width: 5vw;
 }
 
 .menu{
@@ -60,9 +70,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 h1, h2, h3, h4, h5, h6 {
  
-  border-style: dashed;
-  border-width: thin;
-
   outline-style: dotted;
   text-align: center;
   
@@ -119,8 +126,31 @@ ul {
 
 .headshot{
   width: 25%;
+  margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
   display: block;
 
+}
+
+.nav-container{
+  padding: 1em;
+  background-color: #4a4a4a;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-item a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-container p{
+  background-color: #4a4a4a;
+  padding: 1em;
+  text-align: center;
+  color: white;
 }
