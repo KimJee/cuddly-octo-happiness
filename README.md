@@ -6,11 +6,71 @@ Things to do
 [] Learn how to use Github Actions
 [] Learn Markdown?
 
-General Questions (?)
-[] Begin Learning JS Frameworks / Library (from Angular|React )
+Front End
+---------
+[] Learn JavaScript
+    - Fundamentals
+    - DOM (events/elements selectors)
+    - JSON (data format through an API [javascript objects])
+    - Fetch API
+    - Modern JS (ES6?)
+[] Learn a Javascript Framework (Angular)
+    * State Management (NGRX, Services)
+    * Svelte (macro-like Javascript)
+    * Server Side Rendering
+    * Static Site Generator
+    * Typescript (learned through angular)
 
+Back End
+--------
+[] Server-side Language 
+    * Node.js (For working with Javascript for Server-side)
+    * Python (for data science / machine learning)
+[] Server-Side Framework
+    * Express (for Node.js)
+    * Django (for Python)
+[] Database
+    * Relational --> MySQL
+    * NoSQL --> MongoDB (Python / Javascript) <-- Probably will pick this one
+
+-- Helpful Full Stack Stuff --
+[] Use SSH to login
+[] Web Server Environment - NGINX|Apache
+[] App Hosting - Linode, Heroku, AWS, Azure
+[] Virtualization - Docker, Vagrant
+[] Testing - Unit, Functional Integration, etc
+[] Load Balancing, Monitoring, Security
+
+
+Inquire about
+--------------
+- What is NPM|Yarn (Package Manager)
+- Webpack or Parcel
+
+- What is Deployment?
+    * How to get your website onto the internet
+    - (For hosting a small site hostgator/inmotion and use secure FTP)
+    - Domain Registration 
+    - Static Hosting / Managed Hosting
+
+What I should Know (for front-end)
+----------------------------------
+Can create mobild friendly layouts
+Create CSS animations & effects
+Work with a CSS framework
+Add dynamic page functionality
+Build small client-side apps
+Use browser dev tools
+Use git
+Deploy and maintain small projects 
+
+
+
+
+Notes about Front-End and Back-end
+----------------------------------
 Front-End
-- I defintely need to learn Javascripts
+- I defintely need to learn Javascript
 - How do I use Angular/React/Vue to make my page better?
 - What is npm/webpack? [And build-tools in general]
 
