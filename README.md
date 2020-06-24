@@ -3,7 +3,7 @@
 - [x] ~~Add a readme~~
 - [ ] Make the project-page have a vertical-card layout for each of the four projects
 - [ ] Learn how to use Github Actions
-- [] Learn more Markdown?
+- [ ] Learn more Markdown?
 
 ## Front End
 
