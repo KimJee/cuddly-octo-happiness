@@ -8,33 +8,36 @@ Things to do
 
 Front End
 ---------
+
 - [ ] Learn JavaScript
-    - Fundamentals
-    - DOM (events/elements selectors)
-    - JSON (data format through an API [javascript objects])
-    - Fetch API
-    - Modern JS (ES6?)
+  - Fundamentals
+  - DOM (events/elements selectors)
+  - JSON (data format through an API [javascript objects])
+  - Fetch API
+  - Modern JS (ES6?)
 - [ ] Learn a Javascript Framework (Angular)
-    - State Management (NGRX, Services)
-    - Svelte (macro-like Javascript)
-    - Server Side Rendering
-    - Static Site Generator
-    - Typescript (learned through angular)
+  - State Management (NGRX, Services)
+  - Svelte (macro-like Javascript)
+  - Server Side Rendering
+  - Static Site Generator
+  - Typescript (learned through angular)
 
 Back End
 --------
-- [ ] Server-side Language 
-    - Node.js (For working with Javascript for Server-side)
-    - Python (for data science / machine learning)
+
+- [ ] Server-side Language
+  - Node.js (For working with Javascript for Server-side)
+  - Python (for data science / machine learning)
 - [ ] Server-Side Framework
-    - Express (for Node.js)
+  - Express (for Node.js)
     - Django (for Python)
 - [ ] Database
-    - Relational --> MySQL
-    - NoSQL --> MongoDB (Python / Javascript) <-- Probably will pick this one
+  - Relational --> MySQL
+  - NoSQL --> MongoDB (Python / Javascript) <-- Probably will pick this one
 
 Helpful Full Stack Stuff
 ------------------------
+
 - [ ] Use SSH to login
 - [ ] Web Server Environment - NGINX|Apache
 - [ ] App Hosting - Linode, Heroku, AWS, Azure
@@ -42,40 +45,41 @@ Helpful Full Stack Stuff
 - [ ] Testing - Unit, Functional Integration, etc
 - [ ] Load Balancing, Monitoring, Security
 
-
 Inquire about
 --------------
+
 - What is NPM|Yarn (Package Manager)
 - Webpack or Parcel
 
 - What is Deployment?
-    - How to get your website onto the internet
-    - (For hosting a small site hostgator/inmotion and use secure FTP)
-    - Domain Registration 
-    - Static Hosting / Managed Hosting
+  - How to get your website onto the internet
+  - (For hosting a small site hostgator/inmotion and use secure FTP)
+  - Domain Registration
+  - Static Hosting / Managed Hosting
 
 What I should Know (for front-end)
 ----------------------------------
+
 Can create mobild friendly layouts
 Create CSS animations & effects
 Work with a CSS framework
-Add dynamic page functionality
+Add dynamic page functionalities
 Build small client-side apps
 Use browser dev tools
 Use git
-Deploy and maintain small projects 
-
-
-
+Deploy and maintain small projects
 
 Notes about Front-End and Back-end
 ----------------------------------
-_Front-End_
+
+*_Front-End_
+
 - I defintely need to learn Javascript
 - How do I use Angular/React/Vue to make my page better?
 - What is npm/webpack? [And build-tools in general]
 
-__Back-end__
+*__Back-end__
+
 - What is "Express"
 - Server configuration
 - Data Validation / Automatic Notifications
@@ -83,8 +87,9 @@ __Back-end__
 - Seems like Node.js is important?
 
 Project Ideas
-- Form & Input validation (from the client-side) 
-    - Maybe something like regex and stuff?
+
+- Form & Input validation (from the client-side)
+- Maybe something like regex and stuff?
 - Backend Communication Channels
 
 - I want to learn about DataBases and Query Languages (SQL)
