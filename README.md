@@ -1,45 +1,46 @@
 Things to do
 ============
 
-[] Add a readme
-[] Make the project-page have a vertical-card layout for each of the four projects
-[] Learn how to use Github Actions
-[] Learn Markdown?
+- [ ] Add a readme
+- [ ] Make the project-page have a vertical-card layout for each of the four projects
+- [ ] Learn how to use Github Actions
+- [ ] Learn Markdown?
 
 Front End
 ---------
-[] Learn JavaScript
+- [ ] Learn JavaScript
     - Fundamentals
     - DOM (events/elements selectors)
     - JSON (data format through an API [javascript objects])
     - Fetch API
     - Modern JS (ES6?)
-[] Learn a Javascript Framework (Angular)
-    * State Management (NGRX, Services)
-    * Svelte (macro-like Javascript)
-    * Server Side Rendering
-    * Static Site Generator
-    * Typescript (learned through angular)
+- [ ] Learn a Javascript Framework (Angular)
+    - State Management (NGRX, Services)
+    - Svelte (macro-like Javascript)
+    - Server Side Rendering
+    - Static Site Generator
+    - Typescript (learned through angular)
 
 Back End
 --------
-[] Server-side Language 
-    * Node.js (For working with Javascript for Server-side)
-    * Python (for data science / machine learning)
-[] Server-Side Framework
-    * Express (for Node.js)
-    * Django (for Python)
-[] Database
-    * Relational --> MySQL
-    * NoSQL --> MongoDB (Python / Javascript) <-- Probably will pick this one
+- [ ] Server-side Language 
+    - Node.js (For working with Javascript for Server-side)
+    - Python (for data science / machine learning)
+- [ ] Server-Side Framework
+    - Express (for Node.js)
+    - Django (for Python)
+- [ ] Database
+    - Relational --> MySQL
+    - NoSQL --> MongoDB (Python / Javascript) <-- Probably will pick this one
 
--- Helpful Full Stack Stuff --
-[] Use SSH to login
-[] Web Server Environment - NGINX|Apache
-[] App Hosting - Linode, Heroku, AWS, Azure
-[] Virtualization - Docker, Vagrant
-[] Testing - Unit, Functional Integration, etc
-[] Load Balancing, Monitoring, Security
+Helpful Full Stack Stuff
+------------------------
+- [ ] Use SSH to login
+- [ ] Web Server Environment - NGINX|Apache
+- [ ] App Hosting - Linode, Heroku, AWS, Azure
+- [ ] Virtualization - Docker, Vagrant
+- [ ] Testing - Unit, Functional Integration, etc
+- [ ] Load Balancing, Monitoring, Security
 
 
 Inquire about
@@ -48,7 +49,7 @@ Inquire about
 - Webpack or Parcel
 
 - What is Deployment?
-    * How to get your website onto the internet
+    - How to get your website onto the internet
     - (For hosting a small site hostgator/inmotion and use secure FTP)
     - Domain Registration 
     - Static Hosting / Managed Hosting
@@ -69,17 +70,16 @@ Deploy and maintain small projects
 
 Notes about Front-End and Back-end
 ----------------------------------
-Front-End
+_Front-End_
 - I defintely need to learn Javascript
 - How do I use Angular/React/Vue to make my page better?
 - What is npm/webpack? [And build-tools in general]
 
-Back-end
+__Back-end__
 - What is "Express"
 - Server configuration
 - Data Validation / Automatic Notifications
 - Setting up clean-up on servers
-
 - Seems like Node.js is important?
 
 Project Ideas
