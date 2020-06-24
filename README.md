@@ -49,14 +49,14 @@
 
 ## What I should Know (for front-end)
 
-Can create mobild friendly layouts
-Create CSS animations & effects
-Work with a CSS framework
-Add dynamic page functionalities
-Build small client-side apps
-Use browser dev tools
-Use git
-Deploy and maintain small projects
+- Can create mobild friendly layouts
+- Create CSS animations & effects
+- Work with a CSS framework
+- Add dynamic page functionalities
+- Build small client-side apps
+- Use browser dev tools
+- Use git
+- Deploy and maintain small projects
 
 ## Notes about Front-End and Back-end
 
