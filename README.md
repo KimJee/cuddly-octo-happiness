@@ -1,13 +1,11 @@
-Things to do
-============
+# Things to do
 
-- [ ] Add a readme
+- [x] Add a readme
 - [ ] Make the project-page have a vertical-card layout for each of the four projects
 - [ ] Learn how to use Github Actions
-- [ ] Learn Markdown?
+- [x] Learn Markdown?
 
-Front End
----------
+## Front End
 
 - [ ] Learn JavaScript
   - Fundamentals
@@ -22,21 +20,14 @@ Front End
   - Static Site Generator
   - Typescript (learned through angular)
 
-Back End
---------
+## Back End
 
-- [ ] Server-side Language
-  - Node.js (For working with Javascript for Server-side)
+- [ ] Node.js ("back-end runtime environment")
   - Python (for data science / machine learning)
-- [ ] Server-Side Framework
-  - Express (for Node.js)
-    - Django (for Python)
-- [ ] Database
-  - Relational --> MySQL
-  - NoSQL --> MongoDB (Python / Javascript) <-- Probably will pick this one
+- [ ] Express (backend web framework)
+- [ ] Database (MongoDB)
 
-Helpful Full Stack Stuff
-------------------------
+## Helpful Full Stack Stuff
 
 - [ ] Use SSH to login
 - [ ] Web Server Environment - NGINX|Apache
@@ -45,8 +36,7 @@ Helpful Full Stack Stuff
 - [ ] Testing - Unit, Functional Integration, etc
 - [ ] Load Balancing, Monitoring, Security
 
-Inquire about
---------------
+## Inquire about
 
 - What is NPM|Yarn (Package Manager)
 - Webpack or Parcel
@@ -57,8 +47,7 @@ Inquire about
   - Domain Registration
   - Static Hosting / Managed Hosting
 
-What I should Know (for front-end)
-----------------------------------
+## What I should Know (for front-end)
 
 Can create mobild friendly layouts
 Create CSS animations & effects
@@ -69,16 +58,15 @@ Use browser dev tools
 Use git
 Deploy and maintain small projects
 
-Notes about Front-End and Back-end
-----------------------------------
+## Notes about Front-End and Back-end
 
-*_Front-End_
+\*_Front-End_
 
 - I defintely need to learn Javascript
 - How do I use Angular/React/Vue to make my page better?
 - What is npm/webpack? [And build-tools in general]
 
-*__Back-end__
+\***Back-end**
 
 - What is "Express"
 - Server configuration
