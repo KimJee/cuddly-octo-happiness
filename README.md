@@ -83,3 +83,10 @@ Project Ideas
 - I want to learn about DataBases and Query Languages (SQL)
 - User Authentication (through google would be nice)
 - Automatic E-mail/phone notification
+
+## 4 Blocks
+
+- Creation Block (Creating/Producing a Youtube Video or adding pages to the blog)
+- Project Block (Working on Project Sieve)
+- Leetcode Block (Doing Leetcode Problems and Reading and doing C++ Challenges)
+- Project Block (Working on Project Sieve 2)
