@@ -1,0 +1,11 @@
+{
+  "name": "learningnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jee Kim",
+  "license": "ISC"
+}
