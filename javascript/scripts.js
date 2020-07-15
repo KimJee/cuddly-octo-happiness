@@ -3,6 +3,6 @@
     Javascript Functions & Javascript Playground
 */
 
-function muFunction() {
+function myFunction() {
     document.getElementById("demo").innerHTML = "Paragraph changed.";
 }
