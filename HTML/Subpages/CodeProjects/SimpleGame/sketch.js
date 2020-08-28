@@ -13,7 +13,7 @@ const INIT_PELLET_NUM = 100;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-	background(100);
+	background(0);
 
 	// Create the Player
 	Player1 = new Player(windowWidth/2, windowHeight/2, 2, 2, 10);
@@ -51,7 +51,7 @@ function gameLoop()
 	//console.log(getFrameRate());
 
 	// Set the background
-	background(100);
+	background(0);
 
 	// Draw the player
 	drawPlayer();
@@ -165,7 +165,7 @@ function printScore()
 	}
 	//console.log(output_string);
 
-	fill(255);
+	//fill(255);
 	text(output_string, 10, 10, 70, 80); // Text wraps within text box
 }
 
