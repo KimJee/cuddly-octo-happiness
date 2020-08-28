@@ -23,21 +23,21 @@ function setup() {
 	PopulatePellets(Pellets);
 
 	// Create Adversaries for the Player
-	//let FirstAI = new RandomAI();
-	//RandomAIs.push(FirstAI);
+	let FirstAI = new RandomAI(ChooseRandomNumber(0, windowWidth), ChooseRandomNumber(0, windowHeight), 10, 1, 1, 1);
+	RandomAIs.push(FirstAI);
 
 	//let FirstBasicAI = new BasicAI();
 	//BasicAIs.push(FirstBasicAI);
 
 	//let FirstGreedyAI = new GreedyAI(windowWidth/2, windowHeight/2, 10, 1, 1, 1);
-	//let FirstGreedyAI = new GreedyAI(ChooseRandomNumber(0,windowWidth), ChooseRandomNumber(0, windowHeight), 10, 1, 1, 1);
-	//GreedyAIs.push(FirstGreedyAI);
+	let FirstGreedyAI = new GreedyAI(ChooseRandomNumber(0,windowWidth), ChooseRandomNumber(0, windowHeight), 10, 1, 1, 1);
+	GreedyAIs.push(FirstGreedyAI);
 
 	//let FirstSpeedBasicAI = new SpeedBasicAI();
 	//SpeedBasicAIs.push(FirstSpeedBasicAI);
 
-	//let FirstGravityAI = new GravityAI(windowWidth/2, windowHeight/2, 10, 1, 1, 1);
-	//GravityAIs.push(FirstGravityAI);
+	let FirstGravityAI = new GravityAI(ChooseRandomNumber(0,windowWidth), ChooseRandomNumber(0, windowHeight), 10, 1, 1, 1);
+	GravityAIs.push(FirstGravityAI);
 
 	//frameRate(60);
 }
