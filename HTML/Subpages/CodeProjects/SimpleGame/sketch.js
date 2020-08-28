@@ -16,15 +16,15 @@ function setup() {
 	background(100);
 
 	// Create the Player
-	//Player1 = new Player(windowWidth/2, windowHeight/2, 2, 2, 10);
-	//Players.push(Player1);
+	Player1 = new Player(windowWidth/2, windowHeight/2, 2, 2, 10);
+	Players.push(Player1);
 	
 	// Initial Generation of Pellets
-	//PopulatePellets(Pellets);
+	PopulatePellets(Pellets);
 
 	// Create Adversaries for the Player
-	//let FirstAI = new RandomAI();
-	//RandomAIs.push(FirstAI);
+	let FirstAI = new RandomAI();
+	RandomAIs.push(FirstAI);
 
 	//let FirstBasicAI = new BasicAI();
 	//BasicAIs.push(FirstBasicAI);
