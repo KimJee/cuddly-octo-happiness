@@ -83,7 +83,7 @@ class GreedyAI {
 				}
 			} else {
 				this.pickNewPellet();
-				console.log("Picking new pellet");
+				//console.log("Picking new pellet");
 			}
 		}
 	}
