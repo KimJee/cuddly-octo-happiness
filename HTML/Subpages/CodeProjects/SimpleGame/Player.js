@@ -10,16 +10,16 @@ class Player {
 	}
 
 	move(keyCode) {
-		if (keyIsDown(LEFT_ARROW)) {
+		if (keyIsDown(LEFT_ARROW) || keyIsDown(65)) {
 			this.x -= this.velx;
 		}
-		if (keyIsDown(RIGHT_ARROW)) {
+		if (keyIsDown(RIGHT_ARROW) || keyIsDown(68)) {
 			this.x += this.velx;
 		}
-		if (keyIsDown(UP_ARROW)) {
+		if (keyIsDown(UP_ARROW) || keyIsDown(87)) {
 			this.y -= this.vely;
 		}
-		if (keyIsDown(DOWN_ARROW)) {
+		if (keyIsDown(DOWN_ARROW) || keyIsDown(83)) {
 			this.y += this.vely;
 		}
 	}
