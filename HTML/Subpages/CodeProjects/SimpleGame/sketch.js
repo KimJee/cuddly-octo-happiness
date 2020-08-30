@@ -48,7 +48,10 @@ function draw() {
 
 function gameLoop()
 {
-	//console.log(getFrameRate());
+	console.log(getFrameRate());
+
+	// Set the background
+	background('#222222');
 
 	// Draw the player
 	drawPlayer();
@@ -125,8 +128,6 @@ function gameLoop()
 	// Pellet Action
 	MakePellet();
 
-	// Set the background
-	background('#222222');
 }
 
 function printScore()
