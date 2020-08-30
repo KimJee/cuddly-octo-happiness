@@ -9,7 +9,7 @@ let GravityAIs = [];
 
 const MAX_RADIUS = 70;
 
-const INIT_PELLET_NUM = 1000;
+const INIT_PELLET_NUM = 100;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
