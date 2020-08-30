@@ -9,7 +9,7 @@ let GravityAIs = [];
 
 const MAX_RADIUS = 70;
 
-const INIT_PELLET_NUM = 100;
+const INIT_PELLET_NUM = 1000;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
@@ -50,9 +50,6 @@ function gameLoop()
 {
 	//console.log(getFrameRate());
 
-	// Set the background
-	background(0);
-
 	// Draw the player
 	drawPlayer();
 
@@ -73,7 +70,6 @@ function gameLoop()
 
 	// Draw all pellets
 	drawPellet(Pellets);
-
 
 	// Player Action
 	for (let i = 0; i < Players.length; i++)
@@ -128,6 +124,9 @@ function gameLoop()
 
 	// Pellet Action
 	MakePellet();
+
+	// Set the background
+	background('#222222');
 }
 
 function printScore()
@@ -262,7 +261,7 @@ function drawPellet(_Pellets)
 	for (let i = 0; i < Pellets.length; i++)
 	{
 		noStroke();
-		fill('white');
+		fill(255);
 		ellipse(_Pellets[i].x, _Pellets[i].y, 10, 10);
 	}
 }
