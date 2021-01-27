@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Flixter</title>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<div id="root"></div>
+		<script
+			src="..\..\..\javascript\scripts.js"
+			type="text/javascript"
+		></script>
+
+		<!-- Navigation Bar -->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<a class="navbar-brand" href="#">
+				<img
+					src="..\..\..\images\Headshot.png"
+					alt="Logo"
+					style="width: 45px"
+				/>
+			</a>
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="..\..\..\index.html">Home</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="..\ProjectIndex.html">Projects</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="..\Blog.html">Blog</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="..\AboutMe.html">About Me</a>
+				</li>
+			</ul>
+		</nav>
+
+		<header>
+			<!-- Beginning the Page -->
+			<div class="container">
+				<div class="display-2 text-center p-3">Flixter</div>
+				<article>
+					<section>
+						<div class="container text-center p-2">
+							<img src="/kimjee.github.io/images/FlixterDemo.gif" class="img-thumbnail img-fluid" alt="Demo Flixter">
+						</div>
+					</section>
+
+					<section>
+						<div class="container text-left p-2">
+							<h3>What is this?</h3>
+							<hr>
+							<p class="text-info">
+								A simple list app that shows the latest movies.
+							</p>
+							<p>
+								This app utilizes an themoviedb's API to see the latest movies in theaters.
+								This app also uses the RecyclerView paradigm for an easier list view.
+							</p>
+
+							
+							<!-- Place this tag where you want the button to render. -->
+							<a href="https://github.com/KimJee/Flixter"> Link to Github Repo</a>
+						</div>
+					</section>
+					<section>
+						<div class="container text-left my-2">
+							<h4>Important Design Queries</h4>
+							<hr>
+							<ul>
+								<li>
+									How do we want to format the JSON data?
+								</li>
+								<li>
+									What is the best layout for each of these movies?
+								</li>
+							</ul>
+					</section>
+					<section>
+						<div class="container text-left my-2 ">
+						<h4>What I learned</h4>
+						<hr>
+						<ul>
+							<li>
+								Utilized an API to grab movie thumbnails, movie titles, and the movie summary. 
+							</li>
+							<li>
+								Created an custom Adapter class, to leverage Android's RecyclerView which allows for easier list scrolling.
+                            </li>
+                            <li>
+                                What is an API, and how to we convert JSONResponses into our own built-in objects.
+                            </li>
+						</ul>					
+						</div>
+					</section>
+					<section>
+						<div class="container text-left my-2 ">
+							<h4>Points of Weakness & Functionality Improvements </h4>
+							<hr>
+							<ul>
+								<li>
+									The visual interface could have margins, and use better themes and fonts.
+								</li>
+								<li>
+                                    The user should be able to select "tabs" where they can choose different "genres" of movies.
+                                </li>
+                                <li>
+                                    The user should be able to select a movie, and be referred to a more detailed page about the selected movie.
+                                </li>
+							</ul>
+							</div>
+					</section>
+				</article>
+			</div>
+		</header>
+
+		<div class="footer-container">
+			<footer>
+				<p>This content is made by Jee Kim.</p>
+			</footer>
+		</div>
+	</body>
+</html>

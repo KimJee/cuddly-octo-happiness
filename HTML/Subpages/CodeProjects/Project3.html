@@ -3,8 +3,14 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Project3</title>
-		<link rel="stylesheet" href="..\..\..\CSS\styles.css" />
+		<title>Simple ToDo App</title>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 	</head>
 
 	<body>
@@ -14,22 +20,107 @@
 			type="text/javascript"
 		></script>
 
-		<nav>
-			<!-- Link back to the home button -->
-			<div class="nav-container">
-				<div class="nav-item">
-					<a href="..\..\index.html"> Home </a>
-					<a href="..\ProjectIndex.html">Projects</a>
-					<a href="..\Blog.html">Blog</a>
-					<a href="..\AboutMe.html">About Me</a>
-					<a href="..\ContactMe.html">Contact Me</a>
-				</div>
-			</div>
+		<!-- Navigation Bar -->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<a class="navbar-brand" href="#">
+				<img
+					src="..\..\..\images\Headshot.png"
+					alt="Logo"
+					style="width: 45px"
+				/>
+			</a>
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="..\..\..\index.html">Home</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="..\ProjectIndex.html">Projects</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="..\Blog.html">Blog</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="..\AboutMe.html">About Me</a>
+				</li>
+			</ul>
 		</nav>
 
 		<header>
 			<!-- Beginning the Page -->
-			<h1>This is Project 3</h1>
+			<div class="container">
+				<div class="display-2 text-center p-3">Simple Todo</div>
+				<article>
+					<section>
+						<div class="container text-center p-2">
+							<img src="/kimjee.github.io/images/SimpleTodoDemo.gif" class="img-thumbnail img-fluid" alt="Demo of Five-Card-Stud">
+						</div>
+					</section>
+
+					<section>
+						<div class="container text-left p-2">
+							<h3>What is this?</h3>
+							<hr>
+							<p class="text-info">
+								This is a simple todo list app.
+							</p>
+							<p>
+								The user can view the list of items. 
+								The user can then add and remove items from the todolist by holding the listitem.
+								This app uses local storage for data persistence.
+							</p>
+
+							
+							<!-- Place this tag where you want the button to render. -->
+							<a href="https://github.com/KimJee/SimpleToDo"> Link to Github Repo</a>
+						</div>
+					</section>
+					<section>
+						<div class="container text-left my-2">
+							<h4>Important Design Queries</h4>
+							<hr>
+							<ul>
+								<li>
+									What is the best way to store data for longterm usage?
+								</li>
+								<li>
+									What is an basic intuitive interface for a todo app?
+								</li>
+							</ul>
+					</section>
+					<section>
+						<div class="container text-left my-2 ">
+						<h4>What I learned</h4>
+						<hr>
+						<ul>
+							<li>
+								How to create a simple user interface via the Android studio's designer tool.
+							</li>
+							<li>
+								How to create basic listeners and handlers that react based off of user events.
+							</li>
+							<li>
+								Basic data persistence by saving the writing out the file to disk.
+							</li>
+						</ul>					
+						</div>
+					</section>
+					<section>
+						<div class="container text-left my-2 ">
+							<h4>Points of Weakness & Things to Improve </h4>
+							<hr>
+							<ul>
+								<li>
+									The interface isn't the prettiest. There's just the barebones of a todolist, and nothing more. 
+								</li>
+								<li>
+									User should be able to have sublists (nested lists), and should be able to "hide" lists.
+									Perhaps include a date-time module that will remind the user through a notification.
+								</li>
+							</ul>
+							</div>
+					</section>
+				</article>
+			</div>
 		</header>
 
 		<div class="footer-container">
